@@ -5,7 +5,7 @@ import os
 
 def usage():
     print "Usage: "
-    print "p4444.py <file path of PublishProfile file>"
+    print "p4.py <file path of PublishProfile file>"
 
 def parse(path):
     path = os.path.abspath(sys.argv[1])
